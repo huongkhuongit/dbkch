@@ -80,7 +80,7 @@ public class TestImage {
 		iphone.click();
 		op2.setUrl(driver.getCurrentUrl());
 		op2.setPrice(convertPrice(price1));
-		if(op1.getPrice()>op2.getPrice())
+		if(op1.getPrice()<op2.getPrice())
 		{
 			System.out.println(op1.getName());
 			System.out.println(op1.getPrice());
